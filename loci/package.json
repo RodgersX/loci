@@ -1,0 +1,16 @@
+{
+  "name": "loci",
+  "version": "1.0.0",
+  "description": "This is the Loci food website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alero Group",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "bulma": "^0.8.0",
+ 
+  }
+}

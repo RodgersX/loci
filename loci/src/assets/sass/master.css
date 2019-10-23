@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  max-width: 100vw;
+}
+
+.brand-logo {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.nav-left {
+  display: inline-block;
+}
+
+.background-image {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+
+nav, section, .card {
+  background-color: transparent !important;
+}
+
+.nav-item {
+  padding: 0px 10px;
+  color: black;
+}
+
+.nav-menu {
+  position: relative !important;
+  top: -140px;
+  /* left: 120px; */
+  height: 75px;
+  padding-left: 80px;
+}
+
+.detail {
+  padding: 30px;
+  width: 25%;
+  font-size: 30px;
+}
+
+.paragraph {
+  display: inline-block;
+}
+
+.styled {
+  color: orange;
+}
+
+.download {
+  display: block;
+  width: 80%;
+  margin-top: 10px;
+  padding: 6px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background: #296d98;
+}
+
+#arrow-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.icons {
+  padding: 0px 30px;
+}
+
+.pa-4 {
+  position: relative;
+  padding: 5%;
+  margin-top: 2%;
+}
+
+
+/*# sourceMappingURL=master.css.map */
